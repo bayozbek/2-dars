@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/river-flowing-through-forest-generative-al2-min.jpg");
+}
+
+.box h1 {
+    color:white;
+    font-size: 60px;
+    padding-top: 250px;
+    text-align: center;
+}
+
+.box p {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    /* line-height: ; */
+    margin-top: 20px;
+}
+
+.box main {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* background-color: red; */
+    gap: 20px;
+}
+
+.box main button {
+    padding: 7px 40px;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(191, 172, 136);
+    border-radius: 20px;
+}
+
+.box main .btn {
+    padding: 7px 40px;
+    border: 3px solid #fff;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.box main .btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.item {
+    width: 100%;
+    height: 200px;
+    /* background-color: rgb(180, 136, 136); */
+    display: flex;
+    padding-left: 230px;
+    padding-right: 100px;
+    gap: 20px;
+    margin-top: -100px;
+}
+
+.item .hojak {
+    width: 20%;
+    height: 100%;
+    background-color: rgb(187, 163, 118);
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item .hojak img {
+    width: 90px;
+    height: 90px;
+}
+
+.item .hojak > p {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 21px;
+}
+
+.item .hojak > .hol {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 21px;
+    text-align: center;
+}
+
+h1 {
+   color: #000;
+   font-size: 50px;
+   text-align: center;
+   margin-top: 150px; 
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 72%;
+    height: 90vh;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    margin-left: 200px;
+    padding-left: 60px;
+}
+
+.image > img {
+    width: 29%;
+    height: 45%;
+    background-size: cover;
+    background-position: center;
+}
+
+.image button {
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    margin-left: 330px;
+    background-color: rgb(203, 172, 113);
+}
+
+.html {
+    width: 100%;
+    height: 150vh;
+    background-color: rgb(91, 79, 12);
+    margin-top: 20px;
+}
+
+.html > h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+}
+
+.html > p {
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.html .css {
+    width: 80%;
+    height: 700px;
+    /* background-color: #fff; */
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.html .css .java1 {
+     width: 30%;
+     background-position: inherit;
+     height: 250px;
+     background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/1244.jpg");
+     background-size: cover;
+}
+
+.html .css .java2 {
+     width: 30%;
+     background-position: inherit;
+     height: 250px;
+     background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/8.jpg);
+     background-size: cover;
+}.html .css .java3 {
+     width: 30%;
+     background-position: inherit;
+     height: 250px;
+     background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/7894.jpg);
+     background-size: cover;
+}.html .css .java4 {
+     width: 30%;
+     background-position: inherit;
+     height: 250px;
+     background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/Untitled-16.jpg);
+     background-size: cover;
+}.html .css .java5 {
+     width: 30%;
+     background-position: inherit;
+     height: 250px;
+     background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/Untitled-164.jpg);
+     background-size: cover;
+}
+.html .css .java6 {
+     width: 30%;
+     background-position: inherit;
+     height: 250px;
+     background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/79.jpg);
+     background-size: cover;
+}
+/* .html .css .java1 .bo_x h2, */
+.html .css .java2 .bo_x,
+.html .css .java3 .bo_x,
+.html .css .java4 .bo_x,
+.html .css .java5 .bo_x,
+.html .css .java6 .bo_x,
+.html .css .java1 .bo_x {
+    width: 100%;
+    height: 45%;
+    background-color: #04030381;
+    margin-top: 140px;
+}
+.html .css .java1 .bo_x h2,
+.html .css .java2 .bo_x h2,
+.html .css .java3 .bo_x h2,
+.html .css .java4 .bo_x h2,
+.html .css .java5 .bo_x h2,
+.html .css .java6 .bo_x h2{
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+.html .css .java1 .bo_x > p,
+.html .css .java2 .bo_x > p,
+.html .css .java3 .bo_x > p,
+.html .css .java4 .bo_x > p,
+.html .css .java5 .bo_x > p,
+.html .css .java6 .bo_x > p{
+    text-align: center;
+    padding-top: 0px;
+    color: #fff;
+}
+
+.whre {
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.whre .hov {
+    width: 33%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.whre .hov .link_btn {
+    width: 100%;
+    height: 55%;
+    background-position: center;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/young-rural-travellers-picnic3.jpg);
+}
+
+.whre .hov .lijnk {
+    width: 200px;
+    height: 80px;
+    margin-left: 110px;
+    margin-top: -60px;
+    background-color: rgb(59, 51, 15);
+}
+
+.whre .hov .lijnk > p{
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.whre .hov > p{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+
+.whre .hov u {
+    margin-left: 160px;
+    padding-bottom: 20px;
+}
+
+.whre .hov .bn {
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/689.jpg);
+}
+
+.whre .hov .br {
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/2625193/images/young-rural-travellers-picnic3t.jpg);
+}
+
+.camp {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    background-image: url("//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/f35e5cea792156979cb93d2b/gfgfggfggg-min.jpg");
+}
+
+.camp .car {
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    padding: 40px 0 20px 0;
+}
+
+.camp .car2 {
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    flex-direction: column;
+}
+
+.camp .car > h1 {
+   /* padding-left: 50px; */
+   position: absolute;
+   left: 169px;
+   color: #fff;
+}
+
+.camp .car > p {
+      text-align: center;
+      color: #fff;
+      margin-top: 230px;
+      font-size: 20px;
+}
+
+.camp .car > button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 150px;
+    font-size: 20px;
+    border: 3px solid #fff;
+}
+
+.camp .car2 .input{
+    width: 100%;
+    height: 80px;
+    /* background-color: yellow; */
+    margin-top: 190px;
+    display: flex;
+}
+
+
+ .camp .car2 .input .green {
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.camp .car2 .input .black {
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+}
+/* .camp .car2 .input .black > p, */
+.camp .car2 .input .green > p{
+    /* padding: 0; */
+    position: absolute;
+    left: 700px;
+}
+.camp .car2 .input .black input,
+.camp .car2 .input .green input{
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.camp .car2 .input .p {
+    position: absolute;
+    left: 1020px;
+}
+
+.camp .car > button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
